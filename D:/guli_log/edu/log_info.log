@@ -1,0 +1,18 @@
+2020-01-13 18:28:40.699 [restartedMain] INFO  com.guli.edu.EduApplication - Starting EduApplication on Shadows-Mini.home with PID 37267 (/Users/shadowsong/Documents/GitHub/guli/guli-framework-parent/guli-microservice-edu/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/guli)
+2020-01-13 18:28:40.701 [restartedMain] INFO  com.guli.edu.EduApplication - The following profiles are active: dev
+2020-01-13 18:28:43.259 [restartedMain] INFO  com.guli.edu.EduApplication - Started EduApplication in 3.039 seconds (JVM running for 4.05)
+2020-01-13 18:32:59.290 [restartedMain] INFO  com.guli.edu.EduApplication - Starting EduApplication on Shadows-Mini.home with PID 37354 (/Users/shadowsong/Documents/GitHub/guli/guli-framework-parent/guli-microservice-edu/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/guli)
+2020-01-13 18:32:59.292 [restartedMain] INFO  com.guli.edu.EduApplication - The following profiles are active: dev
+2020-01-13 18:33:01.605 [restartedMain] INFO  com.guli.edu.EduApplication - Started EduApplication in 2.597 seconds (JVM running for 3.331)
+2020-01-13 18:37:23.052 [restartedMain] INFO  com.guli.edu.EduApplication - Starting EduApplication on Shadows-Mini.home with PID 37455 (/Users/shadowsong/Documents/GitHub/guli/guli-framework-parent/guli-microservice-edu/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/guli)
+2020-01-13 18:37:23.055 [restartedMain] INFO  com.guli.edu.EduApplication - The following profiles are active: dev
+2020-01-13 18:37:25.918 [restartedMain] INFO  com.guli.edu.EduApplication - Started EduApplication in 3.157 seconds (JVM running for 3.834)
+2020-01-13 18:37:41.718 [restartedMain] INFO  com.guli.edu.EduApplication - Starting EduApplication on Shadows-Mini.home with PID 37466 (/Users/shadowsong/Documents/GitHub/guli/guli-framework-parent/guli-microservice-edu/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/guli)
+2020-01-13 18:37:41.721 [restartedMain] INFO  com.guli.edu.EduApplication - The following profiles are active: dev
+2020-01-13 18:37:44.094 [restartedMain] INFO  com.guli.edu.EduApplication - Started EduApplication in 2.738 seconds (JVM running for 3.477)
+2020-01-13 18:39:03.708 [restartedMain] INFO  com.guli.edu.EduApplication - Starting EduApplication on Shadows-Mini.home with PID 37511 (/Users/shadowsong/Documents/GitHub/guli/guli-framework-parent/guli-microservice-edu/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/guli)
+2020-01-13 18:39:03.710 [restartedMain] INFO  com.guli.edu.EduApplication - The following profiles are active: dev
+2020-01-13 18:39:06.027 [restartedMain] INFO  com.guli.edu.EduApplication - Started EduApplication in 2.598 seconds (JVM running for 3.317)
+2020-01-13 18:39:36.103 [restartedMain] INFO  com.guli.edu.EduApplication - Starting EduApplication on Shadows-Mini.home with PID 37526 (/Users/shadowsong/Documents/GitHub/guli/guli-framework-parent/guli-microservice-edu/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/guli)
+2020-01-13 18:39:36.105 [restartedMain] INFO  com.guli.edu.EduApplication - The following profiles are active: dev
+2020-01-13 18:39:38.334 [restartedMain] INFO  com.guli.edu.EduApplication - Started EduApplication in 2.55 seconds (JVM running for 3.291)

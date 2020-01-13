@@ -1,0 +1,7 @@
+2020-01-13 18:29:17.802 [http-nio-8101-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [GuliException(code=21003)]
+2020-01-13 18:29:52.201 [http-nio-8101-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [GuliException(code=21003)]
+2020-01-13 18:33:23.179 [http-nio-8101-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [GuliException{message=参数不正确, code=21003}]
+2020-01-13 18:37:28.262 [http-nio-8101-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [GuliException{message=参数不正确, code=21003}]
+2020-01-13 18:37:53.060 [http-nio-8101-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [GuliException{message=参数不正确, code=21003}]
+2020-01-13 18:39:20.439 [http-nio-8101-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [GuliException(code=21003)]
+2020-01-13 18:39:53.205 [http-nio-8101-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [GuliException{message=参数不正确, code=21003}]
