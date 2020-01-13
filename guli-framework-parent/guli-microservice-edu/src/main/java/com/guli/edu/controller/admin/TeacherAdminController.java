@@ -4,6 +4,8 @@ package com.guli.edu.controller.admin;
 //import com.baomidou.mybatisplus.extension.api.R;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.guli.common.constants.ResultCodeEnum;
+import com.guli.common.exception.GuliException;
 import com.guli.common.vo.R;
 import com.guli.edu.entity.Teacher;
 import com.guli.edu.query.TeacherQuery;
@@ -46,14 +48,20 @@ public class TeacherAdminController {
             @PathVariable Long limit,
 
             @ApiParam(name = "teacherQuery", value = "查询对象", required = false)
-                    TeacherQuery teacherQuery){
+                    TeacherQuery teacherQuery) throws GuliException {
 
-            Page<Teacher> pageParam = new Page<>(page, limit);
+            if(page <= 0 || limit <= 0){
+                //throw new GuliException(21003, "参数不正确1");
+                throw new GuliException(ResultCodeEnum.PARAM_ERROR);
+            }
+            else{
+                Page<Teacher> pageParam = new Page<>(page, limit);
 
-            teacherService.pageQuery(pageParam, teacherQuery);
-            List<Teacher> records = pageParam.getRecords();
-            long total = pageParam.getTotal();
-            return  R.ok().data("total", total).data("rows", records);
+                teacherService.pageQuery(pageParam, teacherQuery);
+                List<Teacher> records = pageParam.getRecords();
+                long total = pageParam.getTotal();
+                return  R.ok().data("total", total).data("rows", records);
+            }
     }
 
 
@@ -93,12 +101,16 @@ public class TeacherAdminController {
         return R.ok();
     }
 
-//    @ApiOperation(value = "根据ID删除讲师")
-//    @DeleteMapping("{id}")
-//    public boolean removeById(@ApiParam(name = "id", value = "讲师ID", required = true) @PathVariable String id){
-//
-//        return teacherService.removeById(id);
-//    }
+
+    @ApiOperation(value = "根据ID删除讲师")
+    @DeleteMapping("{id}")
+    public R removeById(
+        @ApiParam(name = "id", value = "讲师ID", required = true)
+        @PathVariable String id){
+
+        teacherService.removeById(id);
+        return R.ok();
+    }
 
 
 
